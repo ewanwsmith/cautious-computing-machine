@@ -50,3 +50,13 @@ vegan_data <- read_csv("Downloads/Alyson vegan events responses .csv",
                                                                                                                                      "A lifestyle", "A phase", "Other"))), 
                                            na = "NA")
 
+
+vegan_data$Q28 <- as.factor(vegan_data$Q28)  
+vegan_data$Q29 <- as.factor(vegan_data$Q29)
+vegan_data$Q30 <- as.factor(vegan_data$Q30)
+vegan_data$Q31 <- as.factor(vegan_data$Q31)
+vegan_data$Q32 <- as.factor(vegan_data$Q32)
+
+
+
+
