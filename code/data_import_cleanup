@@ -1,5 +1,5 @@
 library(readr)
-Alyson_vegan_events_responses_ <- read_csv("data/data.csv", 
+vegan_data <- read_csv("data/data.csv", 
     col_types = cols(Timestamp = col_skip(), 
         Consent = col_skip(), `How did you come across this survey?` = col_skip(), 
         Q2 = col_factor(levels = c("Female - not limited to cisgender", 
