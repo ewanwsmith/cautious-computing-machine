@@ -1,0 +1,59 @@
+plot(vegan_data$Q12 ~ vegan_data$Q2)
+t.test(vegan_data$Q12 ~ vegan_data$Q2)
+
+plot(vegan_data$Q13 ~ vegan_data$Q2)
+t.test(vegan_data$Q13 ~ vegan_data$Q2)
+
+plot(vegan_data$Q14 ~ vegan_data$Q2)
+t.test(vegan_data$Q14 ~ vegan_data$Q2)
+
+plot(vegan_data$Q15 ~ vegan_data$Q2)
+t.test(vegan_data$Q15 ~ vegan_data$Q2)
+
+plot(vegan_data$Q16 ~ vegan_data$Q2)
+t.test(vegan_data$Q16 ~ vegan_data$Q2)
+
+plot(vegan_data$Q17 ~ vegan_data$Q2)
+t.test(vegan_data$Q17 ~ vegan_data$Q2)
+
+plot(vegan_data$Q18 ~ vegan_data$Q2)
+t.test(vegan_data$Q18 ~ vegan_data$Q2)
+
+plot(vegan_data$Q20 ~ vegan_data$Q2)
+chisq.test(vegan_data$Q20, vegan_data$Q2)
+
+plot(vegan_data$Q21 ~ vegan_data$Q2)
+chisq.test(vegan_data$Q21, vegan_data$Q2)
+
+plot(vegan_data$Q22 ~ vegan_data$Q2)
+chisq.test(vegan_data$Q22, vegan_data$Q2)
+
+plot(vegan_data$Q23 ~ vegan_data$Q2)
+chisq.test(vegan_data$Q23, vegan_data$Q2)
+
+plot(vegan_data$Q24 ~ vegan_data$Q2)
+chisq.test(vegan_data$Q24, vegan_data$Q2)
+
+plot(vegan_data$Q25 ~ vegan_data$Q2)
+chisq.test(vegan_data$Q25, vegan_data$Q2)
+
+plot(vegan_data$Q26 ~ vegan_data$Q2)
+chisq.test(vegan_data$Q26, vegan_data$Q2)
+
+plot(vegan_data$Q27 ~ vegan_data$Q2)
+chisq.test(vegan_data$Q27, vegan_data$Q2)
+
+plot(vegan_data$Q28 ~ vegan_data$Q2)
+chisq.test(vegan_data$Q28, vegan_data$Q2)
+
+plot(vegan_data$Q29 ~ vegan_data$Q2)
+chisq.test(vegan_data$Q29, vegan_data$Q2)
+
+plot(vegan_data$Q30 ~ vegan_data$Q2)
+chisq.test(vegan_data$Q30, vegan_data$Q2)
+
+plot(vegan_data$Q31 ~ vegan_data$Q2)
+chisq.test(vegan_data$Q31, vegan_data$Q2)
+
+plot(vegan_data$Q32 ~ vegan_data$Q2)
+chisq.test(vegan_data$Q32, vegan_data$Q2)
