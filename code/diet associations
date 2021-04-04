@@ -1,0 +1,26 @@
+chisq.test(vegan_data$Q4, vegan_data$Q9a)
+plot(vegan_data$Q4, vegan_data$Q9a, xlab = "Diet", ylab = " ", main = "1st tickbox")
+
+chisq.test(vegan_data$Q4, vegan_data$Q9b)
+plot(vegan_data$Q4, vegan_data$Q9b, xlab = "Diet", ylab = " ", main = "2nd tickbox") 
+
+chisq.test(vegan_data$Q4, vegan_data$Q9c)
+plot(vegan_data$Q4, vegan_data$Q9c, xlab = "Diet", ylab = " ", main = "3rd tickbox")
+
+chisq.test(vegan_data$Q4, vegan_data$Q9d)
+plot(vegan_data$Q4, vegan_data$Q9d, xlab = "Diet", ylab = " ", main = "4th tickbox")
+
+chisq.test(vegan_data$Q4, vegan_data$Q9e)
+plot(vegan_data$Q4, vegan_data$Q9e, xlab = "Diet", ylab = " ", main = "5th tickbox") #significant
+
+chisq.test(vegan_data$Q4, vegan_data$Q9f)
+plot(vegan_data$Q4, vegan_data$Q9f, xlab = "Diet", ylab = " ", main = "6th tickbox") #lol
+
+chisq.test(vegan_data$Q4, vegan_data$Q9g)
+plot(vegan_data$Q4, vegan_data$Q9g, xlab = "Diet", ylab = " ", main = "7th tickbox")
+
+chisq.test(vegan_data$Q4, vegan_data$Q9h)
+plot(vegan_data$Q4, vegan_data$Q9h, xlab = "Diet", ylab = " ", main = "8th tickbox")
+
+chisq.test(vegan_data$Q4, vegan_data$Q9i)
+plot(vegan_data$Q4, vegan_data$Q9i, xlab = "Diet", ylab = " ", main = "9th tickbox")
